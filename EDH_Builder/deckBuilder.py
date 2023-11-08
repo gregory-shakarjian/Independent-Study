@@ -9,7 +9,7 @@ from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.memory import ChatMessageHistory
 
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 api_key = os.getenv('OPENAI_API_KEY')
 
 def get_data():
